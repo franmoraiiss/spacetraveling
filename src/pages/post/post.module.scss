@@ -1,1 +1,30 @@
-// TODO
+.img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 5rem;
+}
+
+.post {
+  max-width: 720px;
+  display: flex;
+
+  time,
+  span {
+    margin-right: 2rem;
+
+    svg {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.paragraph {
+  h2 {
+    margin: 2rem 0;
+  }
+
+  p {
+    margin-bottom: 5rem;
+  }
+}
